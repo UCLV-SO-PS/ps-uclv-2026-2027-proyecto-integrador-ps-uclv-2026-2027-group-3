@@ -13,7 +13,7 @@ int main(int argc, char *argv[]){
 
     if (argc > 1 && strcmp(argv[1], "--test-run") == 0) {
         printf("Test-run: Base de datos inicializada correctamente.\n");
-        printf("Test-run: Servidor listo para escuchar en el puerto %d.\n");
+        printf("Test-run: Servidor listo para escuchar en el puerto %d.\n", PUERTO);
         return 0;
     }
 
